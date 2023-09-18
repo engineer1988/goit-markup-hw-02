@@ -112,3 +112,9 @@ link-studio-header {
 .text-footer {
   color: rgba(244, 244, 253, 1);
 }
+.third-section {
+  background-color: rgba(244, 244, 253, 1);
+}
+.fourth-section {
+  border: 1px solid rgba(231, 233, 252, 1);
+}
