@@ -8,7 +8,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   text-align: left;
   text-transform: uppercase;
@@ -55,7 +55,6 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 .button-service:hover,
@@ -73,8 +72,8 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
 }
-third-title {
-  color: rgba(46, 47, 66, 1);
+.third-title {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -110,10 +109,14 @@ third-title {
 
 .text-footer {
   color: rgba(244, 244, 253, 1);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .third-section {
   background-color: rgba(244, 244, 253, 1);
 }
-.photo-section-three {
+.photo-section {
   background-color: #ffffff;
 }
