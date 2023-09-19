@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "FF DIN", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: rgba(67, 68, 85, 1);
   background-color: rgba(255, 255, 255, 1);
 }
@@ -8,12 +8,13 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
+  text-transform: uppercase;
 }
-.link-logo .link-web {
-  color: rgba(77, 90, 229, 1);
+.link-logo {
+  color: #4d5ae5;
 }
 .link-nav {
   color: rgba(46, 47, 66, 1);
@@ -30,6 +31,9 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
 }
+.contacts {
+  font-style: normal;
+}
 ul,
 a {
   list-style-type: none;
@@ -44,6 +48,7 @@ a {
   color: #404bbf;
 }
 .button-service {
+  font-family: "Roboto", sans-serif;
   background-color: rgba(77, 90, 229, 1);
   color: rgba(255, 255, 255, 1);
   font-size: 16px;
@@ -51,8 +56,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  width: 196px;
-  height: 56px;
   cursor: pointer;
 }
 .button-service:hover,
@@ -60,22 +63,17 @@ a {
   background-color: #404bbf;
 }
 .first-section {
-  width: 1440px;
-  height: 600px;
-  top: 72px;
   background-color: rgba(46, 47, 66, 1);
 }
-h1 {
+.first-title {
   color: rgba(255, 255, 255, 1);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  width: 496px;
-  height: 120px;
 }
-h3 {
+third-title {
   color: rgba(46, 47, 66, 1);
   font-size: 20px;
   font-weight: 500;
@@ -83,7 +81,7 @@ h3 {
   letter-spacing: 0.02em;
   text-align: left;
 }
-p {
+.text {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -91,30 +89,31 @@ p {
   text-align: left;
   color: rgba(67, 68, 85, 1);
 }
-h2 {
+.second-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
-footer {
-  width: 1440px;
-  height: 312px;
+.basement {
   background: rgba(46, 47, 66, 1);
 }
+.link-studio-header {
+  color: #2e2f42;
+}
 .link-studio-footer {
-  color: rgba(244, 244, 253, 1);
+  color: #f4f4fd;
 }
-link-studio-header {
-  color: rgba(46, 47, 66, 1);
-}
+
 .text-footer {
   color: rgba(244, 244, 253, 1);
 }
 .third-section {
   background-color: rgba(244, 244, 253, 1);
 }
-.fourth-section {
-  border: 1px solid rgba(231, 233, 252, 1);
+.photo-section-three {
+  background-color: #ffffff;
 }
